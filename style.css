@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('LLLL.png');
+    background-size: cover; /* cobre toda a tela */
+    background-position: center; /* centraliza a imagem */
+    background-repeat: no-repeat; /* não repete a imagem */
+    background-attachment: fixed; /* fixa o fundo ao rolar a página */
+    color: #111; /* texto escuro */
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh; /* garante que o body ocupe toda a altura da tela */
+}
+
+/* Títulos */
+h3 {
+    color: #c40000; /* vermelho escuro estiloso */
+    margin-top: 30px;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8); /* sombra para melhor contraste */
+}
+
+/* Formulário */
+form {
+    background: rgba(255, 255, 255, 0.9); /* branco semi-transparente */
+    padding: 15px;
+    border: 2px solid #c40000;
+    width: 320px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    backdrop-filter: blur(2px); /* efeito de desfoque no fundo */
+}
+
+/* Inputs */
+input[type="text"], 
+input[type="number"] {
+    width: 95%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 14px;
+    border: 1px solid #c40000;
+    border-radius: 6px;
+    background: #fff;
+    color: #111;
+    font-size: 16px;
+}
+
+/* Botão de Cadastrar */
+input[type="submit"] {
+    background-color: #c40000; 
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #900000;
+}
+
+/* Tabela */
+table {
+    border-collapse: collapse;
+    margin: 25px auto;
+    background: rgba(255, 255, 255, 0.9); /* branco semi-transparente */
+    width: 550px;
+    box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+    backdrop-filter: blur(2px); /* efeito de desfoque no fundo */
+}
+
+table th, table td {
+    border: 1px solid #c40000;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+table th {
+    background: #c40000;
+    color: white;
+    font-weight: bold;
+}
+
+/* Link Excluir */
+a {
+    color: #c40000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #900000;
+}
